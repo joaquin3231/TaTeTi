@@ -1,14 +1,9 @@
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    font-family: sans-serif;
-}
-
-@media screen and (min-width: 600px){
+@media screen and (max-width: 600px){
+ 
     body, html{
         min-height: 100%;
         background-color: rgb(72, 160, 211);
+
     }
     
     .contenedor{
@@ -17,11 +12,10 @@
     }
     
     .juego{
-        width: 50%;
-        margin: auto;
-        padding: 30px 0;
         position: fixed;
-        right: 0%;
+        bottom: 10%;
+        left: 10%;
+        right: 10%;
     }
     
     .fila{
@@ -31,7 +25,7 @@
     
     .fila div{
         border: 3px solid black;
-        padding: 14%;
+        padding: 50px;
         background-color: white;
     }
     
@@ -51,8 +45,9 @@
     
     .infoJuego{
         position: fixed;
-        top: 5%;
-        left: 3%;
+        top: 4%;
+        left: 10%;
+        right: 10%;
     }
     
     .infoJuego h2{
@@ -74,11 +69,13 @@
     
     .reiniciar{
         padding: 5px;
-        font-size: 15px;
+        margin-top: 15px;
+        font-size: 20px;
         background-color: brown;
         font-weight: 700;
         color: white;
         border-radius: 13px;
         border: 2px solid #510f0f;
     }
+    
 }
