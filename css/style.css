@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+body, html{
+    min-height: 100%;
+    background-color: rgb(72, 160, 211);
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+.juego{
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+
+.fila{
+    display: flex;
+    justify-content: center;
+}
+
+.fila div{
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
+
+.X{
+    background-image: url("/img/X.png");
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.O{
+    background-image: url("/img/O.png");
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.infoJuego{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+.infoJuego h2{
+    font-size: 30px;
+}
+
+.infoJuego .jugadorX{
+    color: red;
+}
+
+.infoJuego .jugadorO{
+    color: blue;
+}
+
+.Ganador{
+    width: 300px;
+    margin-top: 15px;
+}
+
+.reiniciar{
+    padding: 5px;
+    font-size: 15px;
+    background-color: brown;
+    font-weight: 700;
+    color: white;
+    border-radius: 13px;
+    border: 2px solid #510f0f;
+}
